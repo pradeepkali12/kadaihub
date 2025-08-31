@@ -1,0 +1,25 @@
+{
+  "name": "KADAIHUB - Connecting Local Business Digitally",
+  "short_name": "KADAIHUB",
+  "description": "We connect local business with digital solutions, making commerce easier and smarter.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2E3A59",
+  "icons": [
+    {
+      "src": "/images/kadai-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/images/kadai-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["business", "productivity", "shopping"],
+  "lang": "en",
+  "dir": "ltr",
+  "orientation": "portrait-primary"
+}
