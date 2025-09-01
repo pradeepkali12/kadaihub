@@ -131,7 +131,7 @@ export default function RootLayout({
             __html: JSON.stringify(structuredData),
           }}
         />
-        <link rel="canonical" href="https://your-domain.com" />
+        <link rel="canonical" href="https://kadaihub.tech" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         {/* Google Search Console verification - Replace with your actual verification code */}
