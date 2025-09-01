@@ -8,7 +8,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: {
-    default: "KADAIHUB – Connecting Local Business Digitally",
+    default: "KADAIHUB  Connecting Local Business Digitally",
     template: "%s | KADAIHUB"
   },
   description: "We connect local business with digital solutions, making commerce easier and smarter. Discover innovative features, compare offerings, and get the best digital solutions for your needs.",
@@ -92,12 +92,12 @@ export default function RootLayout({
     "@type": "Organization",
     "name": "KADAIHUB",
     "description": "We connect local business with digital solutions, making commerce easier and smarter.",
-    "url": "https://your-domain.com", // Replace with your actual domain
-    "logo": "https://your-domain.com/images/kadai-logo.jpg", // Replace with your actual domain
+    "url": "https://kadaihub.tech", // Replace with your actual domain
+    "logo": "https://kadaihub/images/kadai-logo.jpg", // Replace with your actual domain
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
-      "url": "https://your-domain.com/contact" // Replace with your actual domain
+      "url": "https://kadaihub.tech#contact" // Replace with your actual domain
     },
     "sameAs": [
       "https://facebook.com/kadaihub", // Replace with actual social media links
@@ -109,6 +109,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google Analytics */}
+        <script 
+          async 
+          src="https://www.googletagmanager.com/gtag/js?id=G-LRDECLQQ1T"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-LRDECLQQ1T');
+            `,
+          }}
+        />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
