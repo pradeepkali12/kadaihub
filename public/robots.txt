@@ -14,7 +14,7 @@ Allow: /about
 Allow: /legal/
 
 # Sitemap location
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://kadaihub.tech/sitemap.xml
 
 # Crawl delay (optional, helps with server load)
 Crawl-delay: 1

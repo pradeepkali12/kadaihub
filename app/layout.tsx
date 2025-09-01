@@ -30,14 +30,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://your-domain.com"), // Replace with your actual domain
+  metadataBase: new URL("https://kadaihub.tech"), // Replace with your actual domain
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "https://your-domain.com", // Replace with your actual domain
+    locale: "en_IN",
+    url: "https://kadaihub.tech", // Replace with your actual domain
     title: "KADAIHUB – Connecting Local Business Digitally",
     description: "We connect local business with digital solutions, making commerce easier and smarter.",
     siteName: "KADAIHUB",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "KADAIHUB – Connecting Local Business Digitally",
+    title: "KADAIHUB | Connecting Local Business Digitally",
     description: "We connect local business with digital solutions, making commerce easier and smarter.",
     images: ["/images/kadai-logo.jpg"],
     creator: "@kadaihub", // Replace with your actual Twitter handle
@@ -93,7 +93,7 @@ export default function RootLayout({
     "name": "KADAIHUB",
     "description": "We connect local business with digital solutions, making commerce easier and smarter.",
     "url": "https://kadaihub.tech", // Replace with your actual domain
-    "logo": "https://kadaihub/images/kadai-logo.jpg", // Replace with your actual domain
+    "logo": "https://kadaihub.tech/images/kadai-logo.jpg", // Replace with your actual domain
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
@@ -135,7 +135,7 @@ export default function RootLayout({
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         {/* Google Search Console verification - Replace with your actual verification code */}
-        <meta name="google-site-verification" content="your-google-verification-code" />
+        <meta name="google-site-verification" content="google12cfc8677988bb4.html" />
         {/* Bing Webmaster verification - Replace with your actual verification code */}
         <meta name="msvalidate.01" content="your-bing-verification-code" />
         {/* Additional SEO meta tags */}

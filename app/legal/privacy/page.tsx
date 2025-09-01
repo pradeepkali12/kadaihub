@@ -20,11 +20,11 @@ export default function PrivacyPage() {
     "@type": "WebPage",
     "name": "Privacy Policy",
     "description": "KADAIHUB's privacy policy explaining how we collect, use, and protect your personal information and business data.",
-    "url": "https://your-domain.com/legal/privacy", // Replace with your actual domain
+    "url": "https://kadaihub.tech/legal/privacy", // Replace with your actual domain
     "isPartOf": {
       "@type": "WebSite",
       "name": "KADAIHUB",
-      "url": "https://your-domain.com" // Replace with your actual domain
+      "url": "https://kadaihub.tech" // Replace with your actual domain
     }
   }
 

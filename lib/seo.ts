@@ -3,8 +3,8 @@
 export const SITE_CONFIG = {
   name: "KADAIHUB",
   description: "We connect local business with digital solutions, making commerce easier and smarter.",
-  url: "https://your-domain.com", // Replace with your actual domain
-  ogImage: "https://your-domain.com/images/kadai-logo.jpg", // Replace with your actual domain
+  url: "https://kadaihub.tech", // Replace with your actual domain
+  ogImage: "https://kadaihub.tech/images/kadai-logo.jpg", // Replace with your actual domain
   creator: "KADAIHUB Team",
   keywords: [
     "local business",
@@ -17,7 +17,7 @@ export const SITE_CONFIG = {
   authors: [
     {
       name: "KADAIHUB Team",
-      url: "https://your-domain.com", // Replace with your actual domain
+      url: "https://kadaihub.tech", // Replace with your actual domain
     }
   ],
 }

@@ -123,7 +123,7 @@ Create a `.env.local` file for any environment-specific configurations:
 
 ```env
 # Replace with your actual domain
-NEXT_PUBLIC_SITE_URL=https://your-domain.com
+NEXT_PUBLIC_SITE_URL=https://kadaihub.tech
 
 # Analytics (if using other providers)
 NEXT_PUBLIC_GA_ID=your-ga-id

@@ -9,11 +9,11 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "KADAIHUB",
-    "url": "https://your-domain.com", // Replace with your actual domain
+    "url": "https://kadaihub.tech", // Replace with your actual domain
     "description": "We connect local business with digital solutions, making commerce easier and smarter.",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://your-domain.com/search?q={search_term_string}", // Replace with your actual search URL
+      "target": "https://kadaihub.tech/search?q={search_term_string}", // Replace with your actual search URL
       "query-input": "required name=search_term_string"
     },
     "publisher": {
@@ -21,7 +21,7 @@ export default function HomePage() {
       "name": "KADAIHUB",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://your-domain.com/images/kadai-logo.jpg" // Replace with your actual domain
+        "url": "https://kadaihub.tech/images/kadai-logo.jpg" // Replace with your actual domain
       }
     }
   }

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Features - Digital Business Solutions | KADAIHUB",
     description: "Discover KADAIHUB's powerful features for local businesses. Get digital presence, analytics, promotions, and customer comparison tools.",
-    url: "https://your-domain.com/features",
+    url: "https://kadaihub.tech/features",
   },
   twitter: {
     title: "Features - Digital Business Solutions | KADAIHUB",

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Us - Get in Touch | KADAIHUB",
     description: "Contact KADAIHUB for business inquiries, support, or partnerships. We're here to help you connect your local business digitally.",
-    url: "https://your-domain.com/contact",
+    url: "https://kadaihub.tech/contact",
   },
   twitter: {
     title: "Contact Us - Get in Touch | KADAIHUB",
